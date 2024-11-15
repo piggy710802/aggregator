@@ -3,8 +3,8 @@ on:
   # executed once a week on Sundays at 00:00
   schedule:
   #  - cron: "0 0 * * 1"
-  # executed Every hour, every day, added by zhangwei 20241115
-    - cron: "0 */1 * * *"
+  # executed Every 8 hours, every day, added by zhangwei 20241115
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 concurrency:
