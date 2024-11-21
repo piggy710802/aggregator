@@ -6,7 +6,7 @@ on:
   # At 07:00, 11:00 and 18:00, every day, added by zhangwei 20241115
   # At UTC 23:00, 3:00 and 10:00, every day, added by zhangwei 20241120
     # - cron: "0 23,3,10 * * *"
-        - cron: "0 1 * * *"
+        - cron: "0 2 * * *"
   workflow_dispatch:
 
 concurrency:
