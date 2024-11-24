@@ -3,10 +3,13 @@ on:
   # executed once a week on Sundays at 00:00
   schedule:
   #  - cron: "0 0 * * 1"
+  
   # At 06:40, 11:10 and 16:20, every day, added by zhangwei 20241115
   #  - cron: '40 6 * * *'
   #  - cron: '10 11 * * *'
   #  - cron: '20 16 * * *'
+  
+  # every 5 hours, added by zhangwei 20241124
   - cron: '0 */5 * * *'
   workflow_dispatch:
 
