@@ -9,8 +9,8 @@ on:
   #  - cron: '10 11 * * *'
   #  - cron: '20 16 * * *'
   
-  # every 5 hours, added by zhangwei 20241124
-  - cron: '0 */5 * * *'
+  # every 23 hours, added by zhangwei 20241124
+  - cron: '0 */23 * * *'
   workflow_dispatch:
 
 concurrency:
