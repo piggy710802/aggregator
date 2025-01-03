@@ -10,7 +10,7 @@ on:
   #  - cron: '20 16 * * *'
   
   # every 16 hours, added by zhangwei 20241124
-  - cron: '0 */16 * * *'
+  - cron: '0 0 */2 * *'
   workflow_dispatch:
 
 concurrency:
