@@ -9,7 +9,7 @@ on:
   #  - cron: '10 11 * * *'
   #  - cron: '20 16 * * *'
   
-  # every 16 hours, added by zhangwei 20241124
+  # every 2 day, added by zhangwei 20250105
   - cron: '0 0 */2 * *'
   workflow_dispatch:
 
