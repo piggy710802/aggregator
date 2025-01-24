@@ -6,10 +6,9 @@ on:
     
   # every 2 day, added by zhangwei 20250105
   # - cron: '0 0 */2 * *'
-  
   # every 8个小时, added by zhangwei 20250124
    - cron: '0 */8 * * *'
-    workflow_dispatch:
+   workflow_dispatch:
 
 concurrency:
   group: ${{ github.repository }}
