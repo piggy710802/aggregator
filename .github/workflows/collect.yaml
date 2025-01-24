@@ -3,8 +3,6 @@ on:
   # executed once a week on Sundays at 00:00
   schedule:
   #  - cron: "0 0 * * 1"
-    
-  # every 2 day, added by zhangwei 20250105
   # every 8个小时, added by zhangwei 20250124
    - cron: '0 */8 * * *'
         workflow_dispatch:
