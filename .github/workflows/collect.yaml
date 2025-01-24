@@ -1,10 +1,9 @@
 name: Collect
 on:
-  # executed once a week on Sundays at 00:00
-  #  - cron: "0 0 * * 1"
+  # performed every 8 hours, added by zhangwei,20250124
   schedule:
-    - cron: "0 2 * * *"
-     workflow_dispatch:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.repository }}
